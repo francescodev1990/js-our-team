@@ -33,13 +33,19 @@ const arraytTeam = [
     },
 ]
 
+///////////////
+//MILESTONE 1//
+///////////////
 
+for(let i = 0; i < arraytTeam.length; i++)
 
-for(let i = 0; i<arraytTeam.length; i++){
+{
     let member = arraytTeam[i];
-    for(let key in member){
+    for(let key in member)
+    {
         console.log(member[key]);
     }
-    
 }
 
+let list_item = `<li>${member.name} - ${member.role} - ${member.image}</li>`;
+unordered_list.innerHTML += list_item;
