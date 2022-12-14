@@ -1,6 +1,6 @@
 
 
-let array_team = [
+const arraytTeam = [
     {
         nome: "Wayne Barnett",
         ruolo: "Founder & CEO",
@@ -33,4 +33,13 @@ let array_team = [
     },
 ]
 
-console.log(array_team);
+
+
+for(let i = 0; i<arraytTeam.length; i++){
+    let member = arraytTeam[i];
+    for(let key in member){
+        console.log(member[key]);
+    }
+    
+}
+
