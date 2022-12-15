@@ -1,5 +1,3 @@
-
-
 const arraytTeam = [
     {
         nome: "Wayne Barnett",
@@ -41,11 +39,17 @@ for(let i = 0; i < arraytTeam.length; i++)
 
 {
     let member = arraytTeam[i];
+
     for(let key in member)
     {
-        console.log(member[key]);
+        console.log
     }
 }
 
-let list_item = `<li>${member.name} - ${member.role} - ${member.image}</li>`;
-unordered_list.innerHTML += list_item;
+///////////////
+//MILESTONE 2//
+///////////////
+
+for(let i = 0; i < arraytTeam.length; i++){
+    
+}
